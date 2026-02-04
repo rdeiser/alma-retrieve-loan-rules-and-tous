@@ -144,7 +144,7 @@ def worker_thread(thread_id, ges_rule_data_sorted):
                 name_input.send_keys(title)
                 
                 description_input = safe_find_element(driver, By.ID, "pageBeanruledescription")
-                description_input.send_keys(f"Wiley {parameter_Name_Value}={parameter_Value}")
+                description_input.send_keys(f"{parameter_Name_Value}={parameter_Value}")
                 
                 # Add New Parameter
                 add_parameter = safe_find_element(driver, By.ID, "widgetId_Right_rulesaddParameter")
