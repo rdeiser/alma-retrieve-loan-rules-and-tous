@@ -61,7 +61,7 @@ else:
     exit(1)
 
 if (
-    " " in secrets_local.alma_base_url
+    " " in secrets_local.alma_base_url_sandbox
     or " " in secrets_local.username
     or " " in secrets_local.password
 ):
